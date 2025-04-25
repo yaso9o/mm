@@ -1,0 +1,55 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Yasoo theather</title>  
+    <link rel="stylesheet" href="style.css">  
+    <style>  
+        body {  
+            background-color: #350b1d;  
+            color: #f44786,;  
+            font-family: Arial, sans-serif;  
+            text-align: center;  
+        }  
+        h1 {  
+            color:#037a76;  
+            margin-bottom: 20px;  
+        }  
+        video {  
+            border: 5px solid #037a76;  
+            border-radius: 10px;  
+        }  
+        .buttons {  
+            margin-top: 20px;  
+        }  
+        button {  
+            background-color: #220202;  
+            color: rgb(252, 252, 252);  
+            border: none;  
+            padding: 10px 20px;  
+            margin: 5px;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            font-size: 16px;  
+            border-radius: 6PX;
+        }  
+        button:hover {  
+            background-color: #e6b800;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <section class="Animation">  
+        <h1>Welcome to the SQUID GAMES !</h1>  
+        <video controls>  
+            <source src="E:\new yasmin\practice\theater.html" type="video/mp4" HIEGHT="40PX" WIDTH="60PX">  
+            Your browser does not support the video tag.  
+        </video>  
+        <div class="buttons">  
+            <button onclick="document.querySelector('video').currentTime=0; document.querySelector('video').play();">Play again</button>  
+            <button>★ Rate video</button>  
+        </div>  
+    </section>  
+</body>  
+</html>  
